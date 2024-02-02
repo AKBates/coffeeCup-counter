@@ -1,0 +1,62 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1612487458970-564127ec86f5?q=80&w=3774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#container {
+   max-width: 1280px;
+   margin: auto;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: turquoise
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background-color: burlywood;
+    text-shadow: 1px 1px 1px black;
+    border: 2px sienna solid;
+    border-radius: 30px 0px 30px 0px;
+}
+
+#save-btn {
+    background-color: sienna;
+    text-shadow: 1px 1px 1px black;
+    border: 2px burlywood solid;
+    border-radius: 30px 0px 30px 0px;
+}
+
+#increment-btn:hover {
+    background-color: sienna;
+}
+
+#save-btn:hover {
+    background-color: burlywood;
+}
+
